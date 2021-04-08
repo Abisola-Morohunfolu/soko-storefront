@@ -1,0 +1,28 @@
+.HeaderTextConatainer {
+	display: flex;
+	padding: 1.5rem 2rem;
+	align-items: flex-start;
+}
+
+.IconContainer {
+	background-color: whitesmoke;
+	border-radius: 100%;
+	padding: 1rem;
+}
+
+.HeaderText {
+	margin-left: 2rem;
+}
+
+.HeaderText h1 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.HeaderText p {
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #9d9d9d;
+}

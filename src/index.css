@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--color-blue: #2766cc;
+	--color-yellow: #f8de4b;
+}
+
 html {
 	font-size: 62.5%;
 }

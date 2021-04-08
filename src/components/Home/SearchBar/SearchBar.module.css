@@ -1,0 +1,25 @@
+.InputContainer {
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 1.5rem 2rem;
+	width: 100%;
+}
+
+.Label {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+
+.Input {
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	background-color: whitesmoke;
+	color: #bdbbbb;
+	padding: 1.2rem;
+	position: relative;
+	z-index: 10;
+	width: 85%;
+}
