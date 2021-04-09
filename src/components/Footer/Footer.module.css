@@ -1,0 +1,60 @@
+.Footer {
+	margin: 3rem 0;
+}
+
+.FeatureBox {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 3rem;
+	background-color: var(--color-blue);
+}
+
+.IconBox {
+	color: whitesmoke;
+	text-align: center;
+	/* display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center; */
+	width: 50%;
+}
+
+.IconBox p {
+	font-size: 1.5rem;
+}
+
+.FooterText {
+	padding: 1rem 2rem;
+	margin-top: 1.5rem;
+}
+
+.FooterText h5 {
+	color: #777;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-bottom: 1rem;
+}
+
+.FooterText h4 {
+	font-size: 1.6rem;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.FooterText p {
+	font-size: 1.2rem;
+	color: rgb(51, 51, 51);
+}
+
+.FooterButtonContainer {
+	padding: 1rem 2rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.FooterButtonSpan {
+	margin-left: 5px;
+}

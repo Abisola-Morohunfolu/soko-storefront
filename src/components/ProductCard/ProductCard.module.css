@@ -1,0 +1,70 @@
+.ProductCardContainer {
+	display: flex;
+	padding: 1.5rem 2rem;
+	/* justify-content: space-between; */
+	height: 12vh;
+	align-items: center;
+}
+
+.ImageBox {
+	max-width: 20%;
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.ImageBox::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+	z-index: 10;
+}
+
+.ProductImage {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	padding: 3px;
+}
+
+.ProductDiscount {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	border-top-left-radius: 7px;
+	background-color: salmon;
+	padding: 3px;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.TextBox {
+	margin-right: auto;
+	margin-left: 5px;
+}
+
+.TextBox h5 {
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+
+.Price {
+	font-size: 1.4rem;
+}
+
+.DiscountPrice {
+	font-size: 1.2rem;
+	text-decoration: line-through;
+	color: #aaa;
+}
+
+.ButtonContainer {
+	align-self: flex-end;
+}

@@ -1,0 +1,11 @@
+.Section {
+	display: flex;
+	flex-direction: column;
+	height: 15vh;
+	align-content: center;
+}
+
+.SliderSection {
+	overflow: hidden;
+	display: flex;
+}

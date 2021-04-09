@@ -4,6 +4,7 @@
 	border-radius: 5px;
 	padding: 1.5rem 2rem;
 	width: 100%;
+	display: flex;
 }
 
 .Label {
@@ -21,5 +22,5 @@
 	padding: 1.2rem;
 	position: relative;
 	z-index: 10;
-	width: 85%;
+	width: 90%;
 }

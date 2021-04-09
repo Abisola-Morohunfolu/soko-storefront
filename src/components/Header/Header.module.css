@@ -8,10 +8,7 @@
 	background-color: whitesmoke;
 	border-radius: 100%;
 	padding: 1rem;
-}
-
-.HeaderText {
-	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .HeaderText h1 {

@@ -15,7 +15,7 @@ const SearchBar = () => {
 				placeholder="Search for products"
 				className={classes.Input}
 			/>
-			<Button>
+			<Button bgColor="#f8de4b">
 				<Search fontSize="36" color="#2766cc" />
 			</Button>
 		</div>
