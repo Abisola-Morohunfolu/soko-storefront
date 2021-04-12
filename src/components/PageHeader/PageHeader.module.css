@@ -1,0 +1,11 @@
+.PageHeader {
+	display: flex;
+	align-items: center;
+	padding: 1.5rem 2rem;
+	border-bottom: 1px solid #888;
+}
+
+.PageHeader h2 {
+	font-size: 2.4rem;
+	margin-left: 3rem;
+}

@@ -6,12 +6,23 @@
 	align-items: center;
 }
 
+.ProductCardContainer a {
+	text-decoration: none;
+	font-family: inherit;
+	display: flex;
+	align-content: center;
+	height: 100%;
+	margin-right: auto;
+	color: inherit;
+}
+
 .ImageBox {
 	max-width: 20%;
 	position: relative;
 	border-radius: 3px;
 	overflow: hidden;
 	height: 100%;
+	margin-right: 1.5rem;
 }
 
 .ImageBox::after {

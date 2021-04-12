@@ -7,10 +7,11 @@ import Orders from './components/Orders/Orders';
 import BottomNav from './components/BottomNav/BottomNav';
 import { useWindowSize } from './utils/hooks/useWindowSize';
 import { isMobile } from './utils/isMobile';
+import ProductDetails from './components/ProductDetails/ProductDetails';
 
 function App() {
-	const { width } = useWindowSize();
-	const checkMobile = isMobile(width);
+	const { width, height } = useWindowSize();
+	const checkMobile = isMobile(width, height);
 	return (
 		<>
 			<Header />
@@ -19,6 +20,7 @@ function App() {
 				<Route exact path="/categories" component={Categories} />
 				<Route exact path="/bag" component={Bag} />
 				<Route exact path="/orders" component={Orders} />
+				<Route path="/product/:productName" component={ProductDetails} />
 			</Switch>
 			{checkMobile && <BottomNav />}
 		</>

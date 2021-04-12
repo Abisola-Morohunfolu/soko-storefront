@@ -8,6 +8,7 @@
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 .OutlineButton {
@@ -22,6 +23,7 @@
 	display: flex;
 	align-items: center;
 	padding: 2px 6px;
+	cursor: pointer;
 }
 
 .CollapsableButton {
@@ -37,6 +39,7 @@
 	height: min-content;
 	overflow: hidden;
 	transition: all ease-in-out 0.6s;
+	cursor: pointer;
 }
 
 .CollapsableButton:hover {

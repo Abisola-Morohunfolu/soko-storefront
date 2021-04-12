@@ -1,0 +1,12 @@
+.ProductDetails {
+	display: flex;
+	flex-direction: column;
+}
+
+.ProductImage {
+	border-radius: 10px;
+	margin-bottom: 5px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
