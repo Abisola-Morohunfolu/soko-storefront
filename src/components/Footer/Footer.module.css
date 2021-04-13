@@ -1,5 +1,5 @@
 .Footer {
-	margin: 3rem 0;
+	margin: 3rem 0 8rem;
 }
 
 .FeatureBox {
@@ -57,4 +57,36 @@
 
 .FooterButtonSpan {
 	margin-left: 5px;
+}
+
+@media only screen and (min-width: 64em) {
+	.Footer {
+		text-align: center;
+		margin: 3rem 0 2rem;
+	}
+
+	.FeatureBox {
+		padding: 5rem 12rem;
+		justify-content: center;
+	}
+
+	.IconBox p {
+		font-size: 1.8rem;
+	}
+
+	.FooterText h5 {
+		font-size: 1.6rem;
+	}
+
+	.FooterText p {
+		font-size: 1.6rem;
+	}
+
+	.FooterText h4 {
+		font-size: 2.4rem;
+	}
+
+	.FooterButtonContainer {
+		justify-content: center;
+	}
 }

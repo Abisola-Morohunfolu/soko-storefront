@@ -35,10 +35,12 @@ const Footer = (props) => {
 					<WhatsApp />
 					<span className={classes.FooterButtonSpan}>Chat with us</span>
 				</Button>
-				<CollapsableButton bgColor="#3b3b3b" labelColor="#fff">
-					<DashboardOutlined color="#fff" />
-					<span className={classes.FooterButtonSpan}>Categories</span>
-				</CollapsableButton>
+				{props.isMobileScreen && (
+					<CollapsableButton bgColor="#3b3b3b" labelColor="#fff">
+						<DashboardOutlined color="#fff" />
+						<span className={classes.FooterButtonSpan}>Categories</span>
+					</CollapsableButton>
+				)}
 			</div>
 		</footer>
 	);

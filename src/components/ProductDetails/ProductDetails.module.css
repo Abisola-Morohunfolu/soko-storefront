@@ -7,6 +7,124 @@
 	border-radius: 10px;
 	margin-bottom: 5px;
 	width: 100%;
-	height: 100%;
+	height: 50vh;
 	object-fit: cover;
+}
+
+.ProductText {
+	padding: 1.5rem 2rem;
+}
+
+.ProductText h5 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.ProductText p {
+	color: #888;
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+
+.PriceBox {
+	display: flex;
+	align-items: flex-start;
+}
+
+.PriceBox span p:first-child {
+	font-size: 1.8rem;
+	font-weight: 700;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.PriceBox span p:last-child {
+	font-size: 1.4rem;
+	text-decoration: line-through;
+}
+
+.DiscountBox {
+	background-color: var(--color-red);
+	border-radius: 1px;
+	font-size: 1rem;
+	color: #fff;
+	padding: 3px 5px;
+	border-radius: 3px;
+	margin-left: 3rem;
+}
+
+.SelectButtonContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+.SelectColorButtonContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 15%;
+}
+
+.ButtonContainer {
+	display: flex;
+	align-items: center;
+	margin-top: 4rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background-color: #fff;
+	width: 100%;
+	padding: 1.5rem;
+}
+
+.ButtonContainer button {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.ButtonContainer button:first-child {
+	margin-right: 1.5rem;
+}
+
+.ButtonContainer span {
+	font-weight: 600;
+	color: var(--color-blue);
+	font-size: 1.4rem;
+}
+
+.DiscountPrice {
+	font-size: 5rem;
+}
+
+@media only screen and (min-width: 48em) {
+	.ProductDetails {
+		padding: 2rem 5rem;
+	}
+
+	.ButtonContainer {
+		position: relative;
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 64em) {
+	.ProductDetails {
+		flex-direction: row;
+		padding: 2rem 10rem;
+	}
+
+	.ProductImage {
+		width: 25vw;
+	}
+
+	.ProductText p {
+		width: 90%;
+		font-size: 1.6rem;
+	}
+
+	.ButtonContainer span {
+		font-size: 1.8rem;
+	}
 }

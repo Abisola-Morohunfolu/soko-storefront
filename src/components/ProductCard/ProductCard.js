@@ -1,3 +1,4 @@
+import { Add } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 import { OutlineButton } from '../UI/Button/Button';
 import * as classes from './ProductCard.module.css';
@@ -30,7 +31,10 @@ const ProductCard = (props) => {
 				</div>
 			</Link>
 			<div className={classes.ButtonContainer}>
-				<OutlineButton />
+				<OutlineButton>
+					<Add />
+					<span>Add</span>
+				</OutlineButton>
 			</div>
 		</div>
 	);

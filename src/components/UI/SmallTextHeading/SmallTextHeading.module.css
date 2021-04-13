@@ -1,0 +1,9 @@
+.Heading {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #aaa;
+	font-weight: 300;
+	margin-bottom: 5px;
+	margin-top: 1.2rem;
+}

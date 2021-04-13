@@ -8,6 +8,7 @@ import BottomNav from './components/BottomNav/BottomNav';
 import { useWindowSize } from './utils/hooks/useWindowSize';
 import { isMobile } from './utils/isMobile';
 import ProductDetails from './components/ProductDetails/ProductDetails';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	const { width, height } = useWindowSize();
@@ -20,8 +21,16 @@ function App() {
 				<Route exact path="/categories" component={Categories} />
 				<Route exact path="/bag" component={Bag} />
 				<Route exact path="/orders" component={Orders} />
-				<Route path="/product/:productName" component={ProductDetails} />
+				<Route
+					path="/product/:productName"
+					component={() => <ProductDetails currency="UGN" price={148000} discount={20} />}
+				/>
 			</Switch>
+			<Footer
+				store="Target"
+				address="Cham Towers, Plot 12 Nkruma Rd, Kampala Rd."
+				isMobileScreen={checkMobile}
+			/>
 			{checkMobile && <BottomNav />}
 		</>
 	);

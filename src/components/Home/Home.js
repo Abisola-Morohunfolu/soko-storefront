@@ -15,7 +15,7 @@ const Home = () => {
 				currency="UGX"
 				discount={20}
 			/>
-			<Footer store="Target" address="Cham Towers, Plot 12 Nkruma Rd, Kampala Rd." />
+			
 		</main>
 	);
 };

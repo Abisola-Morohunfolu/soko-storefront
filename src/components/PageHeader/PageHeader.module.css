@@ -1,4 +1,5 @@
 .PageHeader {
+	width: 100%;
 	display: flex;
 	align-items: center;
 	padding: 1.5rem 2rem;
@@ -8,4 +9,17 @@
 .PageHeader h2 {
 	font-size: 2.4rem;
 	margin-left: 3rem;
+	margin-right: auto;
+}
+
+.PageHeaderLink {
+	text-decoration: none;
+	font-family: inherit;
+	color: #282828;
+}
+
+@media only screen and (min-width: 48em) {
+	.PageHeader {
+		padding: 1rem 7rem;
+	}
 }

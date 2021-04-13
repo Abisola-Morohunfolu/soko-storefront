@@ -1,5 +1,4 @@
 import * as classes from './Button.module.css';
-import { Add } from '@material-ui/icons';
 
 const Button = ({ children, clicked, bgColor, labelColor }) => {
 	return (
@@ -13,11 +12,10 @@ const Button = ({ children, clicked, bgColor, labelColor }) => {
 	);
 };
 
-export const OutlineButton = ({ clicked }) => {
+export const OutlineButton = ({ clicked, children }) => {
 	return (
 		<button onClick={clicked} className={classes.OutlineButton}>
-			<Add />
-			<span>Add</span>
+			{children}
 		</button>
 	);
 };
