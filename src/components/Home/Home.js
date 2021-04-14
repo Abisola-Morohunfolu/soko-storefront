@@ -1,4 +1,3 @@
-import Footer from '../Footer/Footer';
 import ProductCard from '../ProductCard/ProductCard';
 import CategoriesSlider from './CategoriesSlider/CategoriesSlider';
 import SearchBar from './SearchBar/SearchBar';
@@ -15,7 +14,6 @@ const Home = () => {
 				currency="UGX"
 				discount={20}
 			/>
-			
 		</main>
 	);
 };

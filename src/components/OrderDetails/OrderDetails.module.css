@@ -1,0 +1,50 @@
+.OrderDetailsContainer {
+	padding: 1.5rem 2rem;
+}
+
+.StoreDetails,
+.OrderDetails {
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.StoreNameBox {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.StoreName {
+	font-size: 1.6rem;
+	margin-left: 5px;
+}
+
+.OrderInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.OrderInfo span:last-child {
+	text-align: right;
+}
+
+.OrderInfo h6 {
+	font-weight: 400;
+	color: #aaa;
+}
+
+.OrderInfo p {
+	font-size: 1.2rem;
+}
+
+.OrderCostSpan,
+.Total {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.Total {
+	font-weight: 700;
+}

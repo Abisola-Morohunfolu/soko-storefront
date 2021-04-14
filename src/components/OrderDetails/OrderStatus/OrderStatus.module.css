@@ -1,0 +1,54 @@
+.OrderStatus {
+	display: flex;
+	/* justify-content: space-between; */
+	margin: 1rem 0;
+	text-align: center;
+	color: #aaa;
+	width: 100%;
+}
+
+.Pending,
+.Shipped,
+.Delivered {
+	position: relative;
+}
+
+.IconBox svg path {
+	position: relative;
+	z-index: 100;
+}
+
+.Completed {
+	color: #0fa730;
+}
+
+.Completed .Line {
+	background-color: #0fa730 !important;
+}
+
+.Completed p {
+	color: #000;
+	font-weight: 600;
+}
+
+.Shipped {
+	flex: 1;
+}
+
+.Shipped {
+	justify-self: flex-end;
+}
+
+.Pending .Line,
+.Shipped .Line,
+.Delivered .Line {
+	height: 2px;
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	top: 25%;
+	left: 0;
+	right: 0;
+	z-index: -100;
+	background-color: #aaa;
+}

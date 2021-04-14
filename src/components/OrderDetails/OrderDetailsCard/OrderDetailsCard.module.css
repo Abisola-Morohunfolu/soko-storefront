@@ -1,0 +1,55 @@
+.OrderDetailsCard {
+	margin: 1rem 0 3.5rem;
+	display: flex;
+	height: 5vh;
+	/* margin-bottom: 3rem; */
+}
+
+.ImageContainer {
+	width: 15%;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.ImageContainer img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.TextBox {
+	padding: 0 1rem;
+	flex: 1;
+}
+
+.TextBox h5 {
+	font-size: 1.4rem;
+}
+
+.OrderInfo {
+	display: flex;
+	/* width: 75%; */
+}
+
+.OrderInfo span {
+	display: flex;
+	align-items: center;
+	margin-right: 8px;
+}
+
+.OrderInfo p {
+	color: #ccc;
+	margin-right: 5px;
+}
+
+.PriceBox {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.PriceBox span:first-child {
+	background-color: #ccc;
+	border-radius: 1px;
+	padding: 0 2px;
+}

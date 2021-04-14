@@ -1,0 +1,86 @@
+.MobileOrderCard {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 3px;
+	text-decoration: none;
+	font-family: inherit;
+	margin: 1.5rem 2rem;
+	padding: 1.5rem 2rem;
+	border: 1px solid #ccc;
+	color: inherit;
+}
+
+.Shipped span {
+	background-color: #ff914d;
+}
+
+.Pending span {
+	background-color: #d1631e;
+}
+
+.Cancelled span {
+	background-color: #aaa;
+}
+
+.Accepted span {
+	background-color: #24b811;
+}
+
+.Delivered span {
+	background-color: var(--color-blue);
+}
+
+.Shipped {
+	color: #ff914d;
+}
+
+.Pending {
+	color: #d1631e;
+}
+
+.Cancelled {
+	color: #aaa;
+}
+
+.Accepted {
+	color: #24b811;
+}
+
+.Delivered {
+	color: var(--color-blue);
+}
+
+.Shipped span,
+.Pending span,
+.Delivered span,
+.Accepted span,
+.Cancelled span {
+	height: 1rem;
+	width: 1rem;
+	display: inline-block;
+	border-radius: 100%;
+	margin-right: 5px;
+}
+
+.MobileOrderDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.MobileOrderTime {
+	background-color: rgb(223, 221, 221);
+	align-self: center;
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+
+.Heading {
+	font-size: 1.6rem;
+	margin-bottom: 5px;
+}
+
+.Text {
+	font-size: 1.2rem;
+	margin-bottom: 4px;
+}
