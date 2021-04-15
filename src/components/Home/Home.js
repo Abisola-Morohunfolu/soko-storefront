@@ -5,7 +5,6 @@ import SearchBar from './SearchBar/SearchBar';
 import EmptyBagState from '../Bag/EmptyBagState/EmptyBagState';
 import CategoriesList from './CategoriesList/CategoriesList';
 import SmallTextHeading from '../UI/SmallTextHeading/SmallTextHeading';
-import Button from '../UI/Button/Button';
 import { ArrowForwardIos } from '@material-ui/icons';
 import { ProductList } from '../../utils/static-data';
 import { Link } from 'react-router-dom';
