@@ -1,0 +1,27 @@
+.CategoriesContainer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 3rem;
+}
+
+.CategoriesContainer div {
+	height: 30vh;
+	width: 40vw;
+	margin-bottom: 3rem;
+	justify-content: center;
+}
+
+.CategoriesContainer h4 {
+	text-transform: capitalize;
+}
+
+@media only screen and (min-width: 64em) {
+	.CategoriesContainer div {
+		height: 50vh;
+	}
+
+	.CategoriesContainer h4 {
+		font-size: 2.4rem;
+	}
+}

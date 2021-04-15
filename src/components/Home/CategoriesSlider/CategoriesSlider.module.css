@@ -8,4 +8,15 @@
 .SliderSection {
 	overflow: hidden;
 	display: flex;
+	height: 10vh;
+}
+
+.SliderSection div {
+	flex-basis: 30%;
+}
+
+@media only screen and (min-width: 64em) {
+	.Section {
+		display: none;
+	}
 }

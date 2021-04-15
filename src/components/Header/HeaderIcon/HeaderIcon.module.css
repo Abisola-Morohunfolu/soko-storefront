@@ -1,0 +1,14 @@
+.HeaderIcon {
+	display: flex;
+	align-items: center;
+	margin: 0 3rem;
+	color: rgb(100, 100, 100);
+	text-decoration: none;
+	font-family: inherit;
+}
+
+.HeaderIcon h5 {
+	font-size: 1.8rem;
+	margin-left: 5px;
+	text-transform: capitalize;
+}

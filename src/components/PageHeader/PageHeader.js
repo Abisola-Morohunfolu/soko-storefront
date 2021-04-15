@@ -16,7 +16,7 @@ const PageHeader = (props) => {
 				<ArrowBackIos />
 			</Button>
 			<h2>{props.heading}</h2>
-			{checkMobile && (
+			{checkMobile && !props.hideIcon && (
 				<Link to="/bag" className={classes.PageHeaderLink}>
 					<LocalMallOutlined style={{ fontSize: '24' }} />
 				</Link>
